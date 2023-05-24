@@ -7,7 +7,8 @@ const HarryPotterContainer = () => {
     const [characters, setCharacters] = useState([]);
     const [house, setHouse] = useState(null);
     const [filterCharacters, setFilterCharacters] = useState([]);
-    
+
+    // character caps
 // character.actor = character.actor.charAt(0).toUpperCase() + character.actor.slice(1);
 
     useEffect(() => {
